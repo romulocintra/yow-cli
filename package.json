@@ -9,6 +9,9 @@
     "email": "",
     "url": ""
   },
+  "bin": {
+    "yow": "bin/cli.js"
+  },
   "keywords": [
     ""
   ],
@@ -30,6 +33,9 @@
     "watch:test": "jest --watch"
   },
   "dependencies": {
+    "@types/chalk": "^0.4.31",
+    "chalk": "^2.1.0",
+    "yow": "^1.0.75"
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",
